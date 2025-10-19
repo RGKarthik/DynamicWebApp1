@@ -1,0 +1,332 @@
+{
+  "Sports": {
+    "level1": [
+      {"question": "Which Indian cricket captain is known as 'Captain Cool'?", "answer": "MS Dhoni", "points": 10},
+      {"question": "In which city is the Wankhede Stadium located?", "answer": "Mumbai", "points": 10},
+      {"question": "Which sport is Saina Nehwal associated with?", "answer": "Badminton", "points": 10},
+      {"question": "How many players are there in a cricket team?", "answer": "11", "points": 10},
+      {"question": "Which Indian boxer won a bronze medal at the 2012 Olympics?", "answer": "Mary Kom", "points": 10}
+    ],
+    "level2": [
+      {"question": "In which year did India win their first Cricket World Cup?", "answer": "1983", "points": 20},
+      {"question": "Which Indian hockey player is known as the 'Wizard of Hockey'?", "answer": "Major Dhyan Chand", "points": 20},
+      {"question": "What is the maximum number of runs a batsman can score in a single ball in cricket?", "answer": "6", "points": 20},
+      {"question": "Which Indian wrestler won gold at the 2018 Commonwealth Games in the 65kg category?", "answer": "Bajrang Punia", "points": 20},
+      {"question": "In which sport did Abhinav Bindra win India's first individual Olympic gold medal?", "answer": "Shooting", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which Indian cricketer holds the record for the highest individual score in Test cricket?", "answer": "Virat Kohli", "points": 30},
+      {"question": "In which year was the Indian Super League (ISL) football tournament launched?", "answer": "2014", "points": 30},
+      {"question": "Which Indian badminton player became the first to reach the finals of All England Open?", "answer": "Pullela Gopichand", "points": 30},
+      {"question": "What is the total number of medals India won at the 2020 Tokyo Olympics?", "answer": "7", "points": 30},
+      {"question": "Which Indian athlete is known as the 'Flying Sikh'?", "answer": "Milkha Singh", "points": 30}
+    ],
+    "level4": [
+      {"question": "Which Indian cricketer has taken the most wickets in Test cricket as a spinner?", "answer": "Anil Kumble", "points": 40},
+      {"question": "In which year did Kapil Dev's India defeat the West Indies in the Cricket World Cup final?", "answer": "1983", "points": 40},
+      {"question": "Which Indian chess player became the youngest Grandmaster at the age of 12?", "answer": "Rameshbabu Praggnanandhaa", "points": 40},
+      {"question": "Which Indian athlete won the first medal for India in Paralympics?", "answer": "Murlikant Petkar", "points": 40},
+      {"question": "In which sport did Karnam Malleswari win India's first Olympic medal by a woman?", "answer": "Weightlifting", "points": 40}
+    ]
+  },
+  "Politics": {
+    "level1": [
+      {"question": "Who is the current President of India?", "answer": "Droupadi Murmu", "points": 10},
+      {"question": "How many years does a Lok Sabha member serve?", "answer": "5", "points": 10},
+      {"question": "What is the minimum age to become Prime Minister of India?", "answer": "25", "points": 10},
+      {"question": "In which city is the Parliament of India located?", "answer": "New Delhi", "points": 10},
+      {"question": "Who was India's first Prime Minister?", "answer": "Jawaharlal Nehru", "points": 10}
+    ],
+    "level2": [
+      {"question": "How many members are there in the Rajya Sabha?", "answer": "245", "points": 20},
+      {"question": "Which Article of the Constitution deals with Right to Equality?", "answer": "Article 14", "points": 20},
+      {"question": "Who appoints the Chief Justice of India?", "answer": "President", "points": 20},
+      {"question": "In which year was the 73rd Constitutional Amendment passed?", "answer": "1992", "points": 20},
+      {"question": "What is the term of office for the President of India?", "answer": "5 years", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which Constitutional Amendment introduced the Goods and Services Tax (GST)?", "answer": "101st Amendment", "points": 30},
+      {"question": "Who was the Chief Architect of the Indian Constitution?", "answer": "Dr. B.R. Ambedkar", "points": 30},
+      {"question": "In which year was the first General Election held in India?", "answer": "1951-52", "points": 30},
+      {"question": "Which Article of the Constitution provides for the establishment of Finance Commission?", "answer": "Article 280", "points": 30},
+      {"question": "Who was the first woman Chief Minister of an Indian state?", "answer": "Sucheta Kripalani", "points": 30}
+    ],
+    "level4": [
+      {"question": "Which schedule of the Constitution deals with the allocation of seats in Rajya Sabha?", "answer": "Fourth Schedule", "points": 40},
+      {"question": "In which case did the Supreme Court establish the 'Basic Structure' doctrine?", "answer": "Kesavananda Bharati case", "points": 40},
+      {"question": "Who was the first Indian to become the Secretary-General of the Non-Aligned Movement?", "answer": "Vijaya Lakshmi Pandit", "points": 40},
+      {"question": "Which Article empowers the Parliament to form new states?", "answer": "Article 3", "points": 40},
+      {"question": "In which year was the Anti-Defection Law enacted in India?", "answer": "1985", "points": 40}
+    ]
+  },
+  "International Affairs": {
+    "level1": [
+      {"question": "Which organization has its headquarters in New York?", "answer": "United Nations", "points": 10},
+      {"question": "How many permanent members are there in the UN Security Council?", "answer": "5", "points": 10},
+      {"question": "Which country is known as the 'Land of the Rising Sun'?", "answer": "Japan", "points": 10},
+      {"question": "What does NATO stand for?", "answer": "North Atlantic Treaty Organization", "points": 10},
+      {"question": "Which is the largest country in the world by area?", "answer": "Russia", "points": 10}
+    ],
+    "level2": [
+      {"question": "In which year was the European Union formed?", "answer": "1993", "points": 20},
+      {"question": "Which country recently hosted the G20 summit in 2023?", "answer": "India", "points": 20},
+      {"question": "What is the currency of China?", "answer": "Yuan", "points": 20},
+      {"question": "Which organization awards the Nobel Peace Prize?", "answer": "Norwegian Nobel Committee", "points": 20},
+      {"question": "In which city is the International Court of Justice located?", "answer": "The Hague", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which country withdrew from the Paris Climate Agreement in 2017?", "answer": "United States", "points": 30},
+      {"question": "What does BRICS stand for?", "answer": "Brazil, Russia, India, China, South Africa", "points": 30},
+      {"question": "In which year did Brexit officially happen?", "answer": "2020", "points": 30},
+      {"question": "Which country is the largest producer of oil in the world?", "answer": "United States", "points": 30},
+      {"question": "What is the name of China's Belt and Road Initiative alternative promoted by India?", "answer": "International North-South Transport Corridor", "points": 30}
+    ],
+    "level4": [
+      {"question": "Which treaty established the International Criminal Court?", "answer": "Rome Statute", "points": 40},
+      {"question": "In which year was the Nuclear Non-Proliferation Treaty signed?", "answer": "1968", "points": 40},
+      {"question": "Which country holds the current presidency of the G7?", "answer": "Japan", "points": 40},
+      {"question": "What is the Doha Round related to?", "answer": "World Trade Organization negotiations", "points": 40},
+      {"question": "Which international body regulates global maritime trade?", "answer": "International Maritime Organization", "points": 40}
+    ]
+  },
+  "Bollywood": {
+    "level1": [
+      {"question": "Who is known as the 'King of Bollywood'?", "answer": "Shah Rukh Khan", "points": 10},
+      {"question": "Which actress is called the 'Dream Girl' of Bollywood?", "answer": "Hema Malini", "points": 10},
+      {"question": "In which movie did Amitabh Bachchan play the role of 'Vijay'?", "answer": "Deewar", "points": 10},
+      {"question": "Who directed the movie 'Sholay'?", "answer": "Ramesh Sippy", "points": 10},
+      {"question": "Which Bollywood movie won the Academy Award for Best Foreign Language Film?", "answer": "None", "points": 10}
+    ],
+    "level2": [
+      {"question": "In which year was the movie 'Mughal-E-Azam' released?", "answer": "1960", "points": 20},
+      {"question": "Who composed the music for the movie 'Kabhi Khushi Kabhie Gham'?", "answer": "Jatin-Lalit", "points": 20},
+      {"question": "Which actor played the role of 'Munna Bhai' in the Munna Bhai series?", "answer": "Sanjay Dutt", "points": 20},
+      {"question": "Who wrote the dialogues for the movie 'Sholay'?", "answer": "Salim-Javed", "points": 20},
+      {"question": "Which movie features the song 'Jai Ho'?", "answer": "Slumdog Millionaire", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which was the first Indian movie to be nominated for an Academy Award?", "answer": "Mother India", "points": 30},
+      {"question": "Who is the director of the movie '3 Idiots'?", "answer": "Rajkumar Hirani", "points": 30},
+      {"question": "Which actress won the National Film Award for Best Actress for 'Queen'?", "answer": "Kangana Ranaut", "points": 30},
+      {"question": "In which movie did Irrfan Khan play the role of a food delivery man?", "answer": "The Lunchbox", "points": 30},
+      {"question": "Who was the first Indian actor to have a wax statue at Madame Tussauds?", "answer": "Amitabh Bachchan", "points": 30}
+    ],
+    "level4": [
+      {"question": "Which movie marked the directorial debut of Farhan Akhtar?", "answer": "Dil Chahta Hai", "points": 40},
+      {"question": "Who was the cinematographer for the movie 'Tumhari Sulu'?", "answer": "Laxman Utekar", "points": 40},
+      {"question": "Which Bollywood movie was India's official entry to the Oscars in 2019?", "answer": "Gully Boy", "points": 40},
+      {"question": "Who composed the background score for the movie 'Haider'?", "answer": "Vishal Bhardwaj", "points": 40},
+      {"question": "Which movie won the Golden Peacock award at the International Film Festival of India in 2018?", "answer": "Donbass", "points": 40}
+    ]
+  },
+  "Hindu Mythology": {
+    "level1": [
+      {"question": "Who is the destroyer among the Hindu Trinity?", "answer": "Shiva", "points": 10},
+      {"question": "What is the name of Lord Vishnu's vehicle?", "answer": "Garuda", "points": 10},
+      {"question": "Who is known as the 'Monkey God' in Hindu mythology?", "answer": "Hanuman", "points": 10},
+      {"question": "How many avatars of Lord Vishnu are there?", "answer": "10", "points": 10},
+      {"question": "Who is the consort of Lord Shiva?", "answer": "Parvati", "points": 10}
+    ],
+    "level2": [
+      {"question": "Which demon was killed by Goddess Durga?", "answer": "Mahishasura", "points": 20},
+      {"question": "What is the name of Arjuna's bow in the Mahabharata?", "answer": "Gandiva", "points": 20},
+      {"question": "Who was the guru of the Pandavas and Kauravas?", "answer": "Dronacharya", "points": 20},
+      {"question": "Which river is considered most sacred in Hinduism?", "answer": "Ganga", "points": 20},
+      {"question": "Who wrote the epic Ramayana?", "answer": "Valmiki", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which Pandava was known for his skill in archery?", "answer": "Arjuna", "points": 30},
+      {"question": "What is the name of the celestial weapon that can destroy the entire universe?", "answer": "Brahmastra", "points": 30},
+      {"question": "Who was the mother of the Pandavas?", "answer": "Kunti", "points": 30},
+      {"question": "Which sage cursed King Parikshit to die of snake bite?", "answer": "Shringi", "points": 30},
+      {"question": "What is the name of the divine discus of Lord Vishnu?", "answer": "Sudarshan Chakra", "points": 30}
+    ],
+    "level4": [
+      {"question": "Which Upanishad contains the famous 'Tat Tvam Asi' (Thou Art That) mahavakya?", "answer": "Chandogya Upanishad", "points": 40},
+      {"question": "Who was the charioteer of Karna in the Kurukshetra war?", "answer": "Shalya", "points": 40},
+      {"question": "Which demon's blood, when spilled, would create more demons?", "answer": "Raktabija", "points": 40},
+      {"question": "What is the name of the cosmic serpent on which Lord Vishnu rests?", "answer": "Shesha", "points": 40},
+      {"question": "Which rishi is considered the compiler of the Vedas?", "answer": "Vyasa", "points": 40}
+    ]
+  },
+  "Indian History": {
+    "level1": [
+      {"question": "Who was the first Mughal emperor of India?", "answer": "Babur", "points": 10},
+      {"question": "In which year did India gain independence?", "answer": "1947", "points": 10},
+      {"question": "Who was known as the 'Iron Man of India'?", "answer": "Sardar Vallabhbhai Patel", "points": 10},
+      {"question": "Which movement was started by Mahatma Gandhi in 1942?", "answer": "Quit India Movement", "points": 10},
+      {"question": "Who was the first Governor-General of independent India?", "answer": "Lord Mountbatten", "points": 10}
+    ],
+    "level2": [
+      {"question": "In which year was the Battle of Plassey fought?", "answer": "1757", "points": 20},
+      {"question": "Who founded the Mughal Empire in India?", "answer": "Babur", "points": 20},
+      {"question": "Which emperor built the Taj Mahal?", "answer": "Shah Jahan", "points": 20},
+      {"question": "In which year was the Sepoy Mutiny or First War of Independence?", "answer": "1857", "points": 20},
+      {"question": "Who was the last Mughal emperor?", "answer": "Bahadur Shah Zafar", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which treaty ended the Third Anglo-Maratha War?", "answer": "Treaty of Mandasor", "points": 30},
+      {"question": "Who was the founder of the Maratha Empire?", "answer": "Chhatrapati Shivaji", "points": 30},
+      {"question": "In which year was the Battle of Panipat fought between Babur and Ibrahim Lodi?", "answer": "1526", "points": 30},
+      {"question": "Who was the first Indian to pass the Indian Civil Services examination?", "answer": "Satyendranath Tagore", "points": 30},
+      {"question": "Which Mughal emperor was known as 'Zinda Pir'?", "answer": "Aurangzeb", "points": 30}
+    ],
+    "level4": [
+      {"question": "Who was the Diwan of Mysore under Hyder Ali and Tipu Sultan?", "answer": "Purnaiah", "points": 40},
+      {"question": "Which ancient Indian text mentions the political philosophy of Chandragupta Maurya's administration?", "answer": "Arthashastra", "points": 40},
+      {"question": "In which year was the Doctrine of Lapse introduced by Lord Dalhousie?", "answer": "1848", "points": 40},
+      {"question": "Who was the first woman ruler of Delhi Sultanate?", "answer": "Razia Sultana", "points": 40},
+      {"question": "Which battle marked the beginning of British rule in Bengal?", "answer": "Battle of Plassey", "points": 40}
+    ]
+  },
+  "World History": {
+    "level1": [
+      {"question": "In which year did World War II end?", "answer": "1945", "points": 10},
+      {"question": "Who was the first person to walk on the moon?", "answer": "Neil Armstrong", "points": 10},
+      {"question": "Which wall was demolished in 1989?", "answer": "Berlin Wall", "points": 10},
+      {"question": "Who was the first President of the United States?", "answer": "George Washington", "points": 10},
+      {"question": "In which country did the Industrial Revolution begin?", "answer": "England", "points": 10}
+    ],
+    "level2": [
+      {"question": "In which year did the Titanic sink?", "answer": "1912", "points": 20},
+      {"question": "Who was the last Tsar of Russia?", "answer": "Nicholas II", "points": 20},
+      {"question": "Which empire was ruled by Julius Caesar?", "answer": "Roman Empire", "points": 20},
+      {"question": "In which year did the French Revolution begin?", "answer": "1789", "points": 20},
+      {"question": "Who invented the printing press?", "answer": "Johannes Gutenberg", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which treaty ended World War I?", "answer": "Treaty of Versailles", "points": 30},
+      {"question": "Who was the leader of the Soviet Union during World War II?", "answer": "Joseph Stalin", "points": 30},
+      {"question": "In which year did the American Civil War end?", "answer": "1865", "points": 30},
+      {"question": "Which ancient wonder of the world was located in Alexandria?", "answer": "Lighthouse of Alexandria", "points": 30},
+      {"question": "Who was the first Holy Roman Emperor?", "answer": "Charlemagne", "points": 30}
+    ],
+    "level4": [
+      {"question": "Which battle marked the end of Napoleon's rule?", "answer": "Battle of Waterloo", "points": 40},
+      {"question": "In which year was the Magna Carta signed?", "answer": "1215", "points": 40},
+      {"question": "Who was the founder of the Mongol Empire?", "answer": "Genghis Khan", "points": 40},
+      {"question": "Which conference decided the partition of Africa among European powers?", "answer": "Berlin Conference", "points": 40},
+      {"question": "In which year did the Byzantine Empire fall?", "answer": "1453", "points": 40}
+    ]
+  },
+  "Science": {
+    "level1": [
+      {"question": "What is the chemical symbol for water?", "answer": "H2O", "points": 10},
+      {"question": "How many bones are there in an adult human body?", "answer": "206", "points": 10},
+      {"question": "Which planet is known as the Red Planet?", "answer": "Mars", "points": 10},
+      {"question": "What gas do plants absorb from the atmosphere?", "answer": "Carbon dioxide", "points": 10},
+      {"question": "What is the speed of light?", "answer": "299,792,458 meters per second", "points": 10}
+    ],
+    "level2": [
+      {"question": "What is the atomic number of carbon?", "answer": "6", "points": 20},
+      {"question": "Which scientist developed the theory of evolution?", "answer": "Charles Darwin", "points": 20},
+      {"question": "What is the largest organ in the human body?", "answer": "Skin", "points": 20},
+      {"question": "Which element has the chemical symbol 'Au'?", "answer": "Gold", "points": 20},
+      {"question": "What is the unit of electric current?", "answer": "Ampere", "points": 20}
+    ],
+    "level3": [
+      {"question": "What is the name of the process by which plants make their food?", "answer": "Photosynthesis", "points": 30},
+      {"question": "Which scientist proposed the theory of relativity?", "answer": "Albert Einstein", "points": 30},
+      {"question": "What is the pH value of pure water?", "answer": "7", "points": 30},
+      {"question": "Which vitamin is produced when skin is exposed to sunlight?", "answer": "Vitamin D", "points": 30},
+      {"question": "What is the name of the largest moon of Saturn?", "answer": "Titan", "points": 30}
+    ],
+    "level4": [
+      {"question": "What is the name of the theoretical boundary around a black hole?", "answer": "Event Horizon", "points": 40},
+      {"question": "Which scientist discovered penicillin?", "answer": "Alexander Fleming", "points": 40},
+      {"question": "What is the name of the process by which heavy atomic nuclei split?", "answer": "Nuclear Fission", "points": 40},
+      {"question": "Which particle is known as the 'God Particle'?", "answer": "Higgs Boson", "points": 40},
+      {"question": "What is the name of the effect that causes the redshift of light from distant galaxies?", "answer": "Doppler Effect", "points": 40}
+    ]
+  },
+  "Mathematics": {
+    "level1": [
+      {"question": "What is the value of π (pi) to two decimal places?", "answer": "3.14", "points": 10},
+      {"question": "What is 15% of 200?", "answer": "30", "points": 10},
+      {"question": "What is the square root of 64?", "answer": "8", "points": 10},
+      {"question": "What is 7 x 8?", "answer": "56", "points": 10},
+      {"question": "What is the sum of angles in a triangle?", "answer": "180 degrees", "points": 10}
+    ],
+    "level2": [
+      {"question": "What is the derivative of x²?", "answer": "2x", "points": 20},
+      {"question": "If log₁₀(100) = x, what is the value of x?", "answer": "2", "points": 20},
+      {"question": "What is the area of a circle with radius 5?", "answer": "25π", "points": 20},
+      {"question": "What is the value of sin(90°)?", "answer": "1", "points": 20},
+      {"question": "Solve for x: 2x + 5 = 15", "answer": "5", "points": 20}
+    ],
+    "level3": [
+      {"question": "What is the integral of 2x?", "answer": "x² + C", "points": 30},
+      {"question": "What is the value of e (Euler's number) to two decimal places?", "answer": "2.72", "points": 30},
+      {"question": "What is the coefficient of x² in the expansion of (x + 2)³?", "answer": "12", "points": 30},
+      {"question": "What is the determinant of the matrix [[2,3],[1,4]]?", "answer": "5", "points": 30},
+      {"question": "What is the limit of (sin x)/x as x approaches 0?", "answer": "1", "points": 30}
+    ],
+    "level4": [
+      {"question": "What is the Laplace transform of e^(at)?", "answer": "1/(s-a)", "points": 40},
+      {"question": "What is the name of the theorem that relates line integrals to double integrals?", "answer": "Green's Theorem", "points": 40},
+      {"question": "What is the eigenvalue of the matrix [[3,1],[0,3]] corresponding to eigenvector [1,0]?", "answer": "3", "points": 40},
+      {"question": "What is the radius of convergence of the power series Σ(x^n/n!)?", "answer": "Infinity", "points": 40},
+      {"question": "What is the name of the conjecture about the distribution of prime numbers?", "answer": "Riemann Hypothesis", "points": 40}
+    ]
+  },
+  "Economics": {
+    "level1": [
+      {"question": "What does GDP stand for?", "answer": "Gross Domestic Product", "points": 10},
+      {"question": "What is the currency of India?", "answer": "Rupee", "points": 10},
+      {"question": "What does RBI stand for?", "answer": "Reserve Bank of India", "points": 10},
+      {"question": "What is inflation?", "answer": "Increase in general price level", "points": 10},
+      {"question": "Who is known as the father of Economics?", "answer": "Adam Smith", "points": 10}
+    ],
+    "level2": [
+      {"question": "What is the current repo rate set by RBI (as of 2023)?", "answer": "6.5%", "points": 20},
+      {"question": "What does SEBI stand for?", "answer": "Securities and Exchange Board of India", "points": 20},
+      {"question": "What is the difference between fiscal policy and monetary policy?", "answer": "Fiscal policy deals with government spending and taxation, monetary policy deals with money supply and interest rates", "points": 20},
+      {"question": "What is the full form of GST?", "answer": "Goods and Services Tax", "points": 20},
+      {"question": "What is a recession?", "answer": "Period of economic decline", "points": 20}
+    ],
+    "level3": [
+      {"question": "What is the Phillips Curve?", "answer": "Relationship between inflation and unemployment", "points": 30},
+      {"question": "What does the Laffer Curve illustrate?", "answer": "Relationship between tax rates and tax revenue", "points": 30},
+      {"question": "What is the difference between nominal and real GDP?", "answer": "Nominal GDP includes inflation effects, real GDP is adjusted for inflation", "points": 30},
+      {"question": "What is quantitative easing?", "answer": "Monetary policy where central bank purchases securities to increase money supply", "points": 30},
+      {"question": "What does NITI Aayog stand for?", "answer": "National Institution for Transforming India", "points": 30}
+    ],
+    "level4": [
+      {"question": "What is the Mundell-Fleming model?", "answer": "Economic model showing relationship between exchange rates, interest rates, and output", "points": 40},
+      {"question": "What is the Gini coefficient used to measure?", "answer": "Income inequality", "points": 40},
+      {"question": "What is the difference between Keynesian and Classical economic theories?", "answer": "Keynesian supports government intervention, Classical supports free market", "points": 40},
+      {"question": "What is the concept of 'crowding out' in economics?", "answer": "Government spending reducing private investment", "points": 40},
+      {"question": "What is the IS-LM model?", "answer": "Model showing relationship between interest rates and real output in goods and money markets", "points": 40}
+    ]
+  },
+  "Business": {
+    "level1": [
+      {"question": "What does CEO stand for?", "answer": "Chief Executive Officer", "points": 10},
+      {"question": "Who is the founder of Microsoft?", "answer": "Bill Gates", "points": 10},
+      {"question": "What does IPO stand for?", "answer": "Initial Public Offering", "points": 10},
+      {"question": "Which Indian company is known for its IT services globally?", "answer": "TCS", "points": 10},
+      {"question": "What is a startup?", "answer": "A newly established business", "points": 10}
+    ],
+    "level2": [
+      {"question": "Who is the current CEO of Google?", "answer": "Sundar Pichai", "points": 20},
+      {"question": "What does ROI stand for in business?", "answer": "Return on Investment", "points": 20},
+      {"question": "Which Indian entrepreneur founded Flipkart?", "answer": "Sachin Bansal and Binny Bansal", "points": 20},
+      {"question": "What is a unicorn in business terms?", "answer": "A startup valued at over $1 billion", "points": 20},
+      {"question": "What does B2B stand for?", "answer": "Business to Business", "points": 20}
+    ],
+    "level3": [
+      {"question": "Which Indian businessman is known as the 'King of Good Times'?", "answer": "Vijay Mallya", "points": 30},
+      {"question": "What is the difference between revenue and profit?", "answer": "Revenue is total income, profit is revenue minus expenses", "points": 30},
+      {"question": "Who founded the Tata Group?", "answer": "Jamsetji Tata", "points": 30},
+      {"question": "What is venture capital?", "answer": "Investment in startups and small businesses with growth potential", "points": 30},
+      {"question": "What does EBITDA stand for?", "answer": "Earnings Before Interest, Taxes, Depreciation, and Amortization", "points": 30}
+    ],
+    "level4": [
+      {"question": "What is the concept of 'Blue Ocean Strategy'?", "answer": "Creating new market space rather than competing in existing market", "points": 40},
+      {"question": "Who developed the concept of 'Creative Destruction' in economics?", "answer": "Joseph Schumpeter", "points": 40},
+      {"question": "What is the difference between angel investors and venture capitalists?", "answer": "Angel investors are individuals, VCs are firms; angels invest earlier and smaller amounts", "points": 40},
+      {"question": "What does DCF stand for in valuation?", "answer": "Discounted Cash Flow", "points": 40},
+      {"question": "What is the 'Freemium' business model?", "answer": "Basic service free, premium features paid", "points": 40}
+    ]
+  }
+}

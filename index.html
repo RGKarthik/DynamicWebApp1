@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Knowledge Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 Indian Knowledge Quiz 🇮🇳</h1>
+            <p>Test your knowledge across various topics tailored for Indians!</p>
+        </header>
+
+        <main class="landing-page">
+            <div class="quiz-form">
+                <div class="form-group">
+                    <label for="playerName">Enter Your Name:</label>
+                    <input type="text" id="playerName" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Select Two Topics:</label>
+                    <div class="topics-grid">
+                        <div class="topic-item">
+                            <input type="checkbox" id="sports" value="Sports">
+                            <label for="sports">🏏 Sports</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="politics" value="Politics">
+                            <label for="politics">🏛️ Politics</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="international" value="International Affairs">
+                            <label for="international">🌍 International Affairs</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="bollywood" value="Bollywood">
+                            <label for="bollywood">🎬 Bollywood</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="mythology" value="Hindu Mythology">
+                            <label for="mythology">🕉️ Hindu Mythology</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="indianhistory" value="Indian History">
+                            <label for="indianhistory">🏺 Indian History</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="worldhistory" value="World History">
+                            <label for="worldhistory">🌏 World History</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="science" value="Science">
+                            <label for="science">🔬 Science</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="mathematics" value="Mathematics">
+                            <label for="mathematics">📐 Mathematics</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="economics" value="Economics">
+                            <label for="economics">💰 Economics</label>
+                        </div>
+                        <div class="topic-item">
+                            <input type="checkbox" id="business" value="Business">
+                            <label for="business">💼 Business</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="error-message" id="errorMessage"></div>
+
+                <button type="button" id="startQuiz" class="start-btn">
+                    Start Quiz 🚀
+                </button>
+            </div>
+
+            <div class="instructions">
+                <h3>📋 Quiz Instructions</h3>
+                <ul>
+                    <li>Select exactly <strong>2 topics</strong> from the list above</li>
+                    <li>You'll get <strong>4 questions per topic</strong> (8 questions total)</li>
+                    <li>Questions have different difficulty levels:
+                        <ul>
+                            <li>🟢 Level 1: 10 points</li>
+                            <li>🟡 Level 2: 20 points</li>
+                            <li>🟠 Level 3: 30 points</li>
+                            <li>🔴 Level 4: 40 points</li>
+                        </ul>
+                    </li>
+                    <li>Maximum possible score: <strong>200 points</strong></li>
+                    <li>Type your answers in the text boxes provided</li>
+                    <li>Good luck! 🍀</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

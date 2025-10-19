@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Debug Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        button { padding: 10px 20px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Quiz Debug Test</h1>
+    
+    <div class="debug">
+        <h3>Step 1: Set Quiz Data</h3>
+        <button onclick="setTestData()">Set Test Data in SessionStorage</button>
+        <div id="step1-result"></div>
+    </div>
+    
+    <div class="debug">
+        <h3>Step 2: Test Questions Data</h3>
+        <button onclick="testQuestionsData()">Test Questions Data</button>
+        <div id="step2-result"></div>
+    </div>
+    
+    <div class="debug">
+        <h3>Step 3: Test Quiz Generation</h3>
+        <button onclick="testQuizGeneration()">Test Quiz Generation</button>
+        <div id="step3-result"></div>
+    </div>
+    
+    <div class="debug">
+        <h3>Step 4: Go to Quiz Page</h3>
+        <button onclick="goToQuiz()">Go to Quiz Page</button>
+    </div>
+
+    <script>
+        // Copy the questions data from quiz.js
+        const questionsData = {
+            "Sports": {
+                "level1": [
+                    {"question": "Which Indian cricket captain is known as 'Captain Cool'?", "answer": "MS Dhoni", "points": 10},
+                    {"question": "In which city is the Wankhede Stadium located?", "answer": "Mumbai", "points": 10},
+                    {"question": "Which sport is Saina Nehwal associated with?", "answer": "Badminton", "points": 10},
+                    {"question": "How many players are there in a cricket team?", "answer": "11", "points": 10},
+                    {"question": "Which Indian boxer won a bronze medal at the 2012 Olympics?", "answer": "Mary Kom", "points": 10}
+                ],
+                "level2": [
+                    {"question": "In which year did India win their first Cricket World Cup?", "answer": "1983", "points": 20}
+                ],
+                "level3": [
+                    {"question": "Which Indian cricketer holds the record for the highest individual score in Test cricket?", "answer": "Virat Kohli", "points": 30}
+                ],
+                "level4": [
+                    {"question": "Which Indian cricketer has taken the most wickets in Test cricket as a spinner?", "answer": "Anil Kumble", "points": 40}
+                ]
+            },
+            "Science": {
+                "level1": [
+                    {"question": "What is the chemical symbol for water?", "answer": "H2O", "points": 10}
+                ],
+                "level2": [
+                    {"question": "What is the atomic number of carbon?", "answer": "6", "points": 20}
+                ],
+                "level3": [
+                    {"question": "What is the name of the process by which plants make their food?", "answer": "Photosynthesis", "points": 30}
+                ],
+                "level4": [
+                    {"question": "What is the name of the theoretical boundary around a black hole?", "answer": "Event Horizon", "points": 40}
+                ]
+            }
+        };
+        
+        function setTestData() {
+            const testQuizData = {
+                playerName: "Test User",
+                selectedTopics: ["Sports", "Science"],
+                timestamp: new Date().toISOString()
+            };
+            
+            sessionStorage.setItem('quizData', JSON.stringify(testQuizData));
+            document.getElementById('step1-result').innerHTML = 
+                `<strong>✓ Data Set:</strong><br><pre>${JSON.stringify(testQuizData, null, 2)}</pre>`;
+        }
+        
+        function testQuestionsData() {
+            const result = document.getElementById('step2-result');
+            result.innerHTML = `<strong>✓ Questions Data Available:</strong><br>`;
+            result.innerHTML += `Topics: ${Object.keys(questionsData).join(', ')}<br>`;
+            
+            Object.keys(questionsData).forEach(topic => {
+                result.innerHTML += `${topic}: ${Object.keys(questionsData[topic]).join(', ')}<br>`;
+            });
+        }
+        
+        function testQuizGeneration() {
+            const quizDataStr = sessionStorage.getItem('quizData');
+            if (!quizDataStr) {
+                document.getElementById('step3-result').innerHTML = '<strong>❌ No quiz data found!</strong>';
+                return;
+            }
+            
+            const quizData = JSON.parse(quizDataStr);
+            const quizQuestions = [];
+            const difficulties = ['level1', 'level2', 'level3', 'level4'];
+            
+            let result = '<strong>✓ Quiz Generation Test:</strong><br>';
+            
+            quizData.selectedTopics.forEach(topic => {
+                result += `<br><strong>${topic}:</strong><br>`;
+                difficulties.forEach(difficulty => {
+                    const topicQuestions = questionsData[topic][difficulty];
+                    if (topicQuestions && topicQuestions.length > 0) {
+                        const randomIndex = Math.floor(Math.random() * topicQuestions.length);
+                        const question = { ...topicQuestions[randomIndex] };
+                        question.topic = topic;
+                        question.difficulty = difficulty;
+                        quizQuestions.push(question);
+                        result += `${difficulty}: ${question.question} (${question.points} pts)<br>`;
+                    } else {
+                        result += `${difficulty}: ❌ No questions found<br>`;
+                    }
+                });
+            });
+            
+            result += `<br><strong>Total Questions Generated: ${quizQuestions.length}</strong>`;
+            document.getElementById('step3-result').innerHTML = result;
+        }
+        
+        function goToQuiz() {
+            if (!sessionStorage.getItem('quizData')) {
+                alert('Please set test data first!');
+                return;
+            }
+            window.location.href = 'quiz.html';
+        }
+    </script>
+</body>
+</html>

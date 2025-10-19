@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Test</title>
+</head>
+<body>
+    <h1>Quiz Test</h1>
+    <p>Open browser console to see debug information</p>
+    
+    <script>
+        // Test the quiz functionality
+        console.log('Testing quiz functionality...');
+        
+        // Set test data in sessionStorage
+        const testQuizData = {
+            playerName: "Test User",
+            selectedTopics: ["Sports", "Science"],
+            timestamp: new Date().toISOString()
+        };
+        
+        sessionStorage.setItem('quizData', JSON.stringify(testQuizData));
+        console.log('Test data set:', testQuizData);
+        
+        // Redirect to quiz page
+        setTimeout(() => {
+            window.location.href = 'quiz.html';
+        }, 2000);
+    </script>
+</body>
+</html>

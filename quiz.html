@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Indian Knowledge Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 Indian Knowledge Quiz 🇮🇳</h1>
+            <div class="player-info">
+                <span id="playerDisplay"></span>
+                <span id="topicsDisplay"></span>
+            </div>
+        </header>
+
+        <main class="quiz-page">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+                <span class="progress-text" id="progressText">Question 1 of 8</span>
+            </div>
+
+            <div class="quiz-container">
+                <div class="question-card">
+                    <div class="question-header">
+                        <span class="topic-badge" id="currentTopic"></span>
+                        <span class="difficulty-badge" id="currentDifficulty"></span>
+                    </div>
+                    
+                    <div class="question-content">
+                        <h2 id="questionText"></h2>
+                        <div class="answer-input">
+                            <label for="answerInput">Your Answer:</label>
+                            <input type="text" id="answerInput" placeholder="Type your answer here..." autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="question-navigation">
+                        <button id="nextBtn" class="nav-btn">Next Question →</button>
+                    </div>
+                </div>
+
+                <div class="quiz-sidebar">
+                    <div class="score-display">
+                        <h3>Current Score</h3>
+                        <div class="score-number" id="currentScore">0</div>
+                        <div class="max-score">/ 200 points</div>
+                    </div>
+
+                    <div class="answered-questions">
+                        <h4>Progress</h4>
+                        <div id="answeredList"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Results Modal -->
+        <div id="resultsModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>🎉 Quiz Completed! 🎉</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="final-score">
+                        <div class="score-circle">
+                            <span id="finalScore">0</span>
+                            <span class="score-label">/ 200</span>
+                        </div>
+                    </div>
+                    <div class="score-message" id="scoreMessage"></div>
+                    <div class="score-breakdown" id="scoreBreakdown"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="restartBtn" class="restart-btn">Play Again</button>
+                    <button id="homeBtn" class="home-btn">Back to Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

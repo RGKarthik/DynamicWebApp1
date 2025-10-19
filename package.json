@@ -1,0 +1,37 @@
+{
+  "name": "indian-knowledge-quiz",
+  "version": "1.0.0",
+  "description": "A comprehensive quiz website featuring Indian-centric questions across multiple topics with four difficulty levels",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "quiz",
+    "indian",
+    "education",
+    "knowledge",
+    "web-app",
+    "azure"
+  ],
+  "author": "RGKarthik",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RGKarthik/DynamicWebApp1.git"
+  },
+  "homepage": "https://github.com/RGKarthik/DynamicWebApp1#readme"
+}
